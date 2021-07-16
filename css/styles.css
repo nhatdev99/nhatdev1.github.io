@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400&display=swap");
+html body {
+    font-family: "Jura", sans-serif;
+    background-color: #262626;
+}
+::selection {
+    background-color: #f8e004;
+    color: #000;
+}
+body a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+body .content .ten:hover a {
+    color: #f8e004;
+}
+nav.navbar .nav-item .nav-link {
+    color: #f8e004;
+}
+nav.navbar .nav-item:hover > .nav-link {
+    color: #fff;
+    transition: 0.5s;
+}
+nav.navbar a.navbar-brand {
+    color: #fff;
+    transition: 0.5s;
+}
+nav.navbar .navbar-brand a {
+    color: #f8e004;
+    transition: 0.5s;
+}
+nav.navbar .navbar-brand:hover {
+    color: #f8e004;
+}
+nav.navbar .navbar-brand:hover b {
+    color: #fff;
+}
+nav.navbar img.img-brand {
+    transition: 0.8s;
+}
+nav.navbar .navbar-brand:hover img.img-brand {
+    transform: rotate(360deg);
+}
+
+.content {
+    margin: 20px 0;
+    padding: 10px 5px;
+}
+.content h2 {
+    color: #f8e004;
+}
+.content a {
+    color: #fff;
+}
+.content table {
+    width: 100%;
+}
+.content .ten {
+    background-color: #262626;
+}
+.content table,
+.content th,
+.content td {
+    background-color: #262626;
+    border-bottom: 0.1mm solid #313131;
+    border-collapse: collapse;
+}
+.content th,
+.content td {
+    background-color: #262626;
+    padding: 15px;
+    text-align: left;
+}
+.content td {
+    color: #fff;
+    font-weight: bold;
+}
+
+.content .bar,
+.content tr .bar,
+.nav-item .bar,
+.navbar .bar {
+    width: 0px;
+    height: 2px;
+    background: #f8e004;
+    transition: width 0.5s;
+    border-radius: 10px;
+}
+.content table tr:hover > td .bar,
+.content .ten:hover > .bar,
+.nav-item:hover > .bar,
+.navbar-brand:hover .bar {
+    background: #f8e004;
+    width: 100%;
+}
+header {
+    margin: 20px 0;
+}
+header .text-white h1 {
+    color: #f8e004;
+    text-shadow: 1px 1px 5px #ffffff;
+}
+
+.content table tr td a:hover {
+    color: #f8e004;
+    transition: 0.5s;
+}
+
+footer {
+    text-align: center;
+    color: #000;
+    background: #fff;
+    padding: 5px;
+}
+footer a > b {
+    color: #fa4646;
+}

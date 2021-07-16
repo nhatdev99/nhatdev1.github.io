@@ -1,0 +1,22 @@
+
+@media (max-width: 767px) {
+	.content-carousel .carousel-inner .active.left { left: -100%; }
+	.content-carousel .carousel-inner .next        { left:  100%; }
+	.content-carousel .carousel-inner .prev		 { left: -100%; }
+	.content-carousel .active > div { display:none; }
+	.content-carousel .active > div:first-child { display:block; }
+
+}
+@media (min-width: 767px) and (max-width: 992px ) {
+	.content-carousel .carousel-inner .active.left { left: -50%; }
+	.content-carousel .carousel-inner .next        { left:  50%; }
+	.content-carousel .carousel-inner .prev		 { left: -50%; }
+	.content-carousel .active > div { display:none; }
+	.content-carousel .active > div:first-child { display:block; }
+	.content-carousel .active > div:first-child + div { display:block; }
+}
+@media (min-width: 992px ) {
+	.content-carousel .carousel-inner .active.left { left: -25%; }
+	.content-carousel .carousel-inner .next        { left:  25%; }
+	.content-carousel .carousel-inner .prev		 { left: -25%; }	
+}
