@@ -105,7 +105,10 @@ header .text-white h1 {
     color: #f8e004;
     transition: 0.5s;
 }
-
+.lightbox img {
+    border-radius: 10px;
+    margin: 10px 0;
+}
 footer {
     text-align: center;
     color: #000;
